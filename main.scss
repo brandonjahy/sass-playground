@@ -67,6 +67,8 @@ header {
         p {
             font-size: 20px;
             color: #000;
+            font-family: $smallfont;
+            letter-spacing: 1.5;
         }
         h1 {
             font-size: 4rem;
@@ -83,6 +85,14 @@ header {
             font-size: 1rem;
             box-shadow: $buttonShadow;
         }
+    }
+    .scroll {
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        font-size: 1rem;
+        color: $smallcolor;
+        font-family: $smallfont;
     }
 }
 

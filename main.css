@@ -70,6 +70,8 @@ header .showcase {
 header .showcase p {
   font-size: 20px;
   color: #000;
+  font-family: "Dosis", sans-serif;
+  letter-spacing: 1.5;
 }
 
 header .showcase h1 {
@@ -88,5 +90,14 @@ header .showcase button {
   font-size: 1rem;
   -webkit-box-shadow: 11px 10px 23px -5px rgba(0, 0, 0, 0.75);
           box-shadow: 11px 10px 23px -5px rgba(0, 0, 0, 0.75);
+}
+
+header .scroll {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  font-size: 1rem;
+  color: #fdfdfd;
+  font-family: "Dosis", sans-serif;
 }
 /*# sourceMappingURL=main.css.map */
