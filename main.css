@@ -49,4 +49,44 @@
   padding-top: 7px;
   color: #fff;
 }
+
+header {
+  height: 100vh;
+  width: 100%;
+  background: url("https://s2.best-wallpaper.net/wallpaper/1920x1080/1812/Beautiful-space-astronaut-galaxy-art-picture_1920x1080.jpg") center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+header .showcase {
+  height: 50vh;
+  width: 40%;
+  position: absolute;
+  top: 25%;
+  left: 8%;
+  padding: 30px;
+}
+
+header .showcase p {
+  font-size: 20px;
+  color: #000;
+}
+
+header .showcase h1 {
+  font-size: 4rem;
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin: 35px 0;
+}
+
+header .showcase button {
+  margin: 25px 0;
+  height: 12%;
+  width: 28%;
+  border-radius: 10px;
+  background: linear-gradient(216deg, #a906f6 0%, #2424de 100%);
+  font-size: 1rem;
+  -webkit-box-shadow: 11px 10px 23px -5px rgba(0, 0, 0, 0.75);
+          box-shadow: 11px 10px 23px -5px rgba(0, 0, 0, 0.75);
+}
 /*# sourceMappingURL=main.css.map */
