@@ -1,9 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:700|Dosis:300,400&display=swap');
+
+$bigfont: 'Arimo', sans-serif;
+$smallfont: 'Dosis', sans-serif;
 $color: #8e943d;
+$purple: #7e2aeb;
 
 .nav {
-    background: $color;
+    background: rgba(0,0,0, .3);
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 20px 40px 20px 20px;
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    h3 {
+        color: $purple;
+        font-size: 28px;
+        float: left;
+        font-family: $bigfont;
+        span{
+            color: #fff;
+        }
+    }
     ul {
         list-style: none;
+        font-family: $smallfont;
+        float: left;
+        margin-left: 19%;
+        font-size: 20px;
+    }
+    li {
         display: inline-block;
+        margin: 5px 15px;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+    a {
+        margin: 5px 15px;
+        i {
+            padding-top: 7px;
+            color: #fff;
+        }
     }
 }
+

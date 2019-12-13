@@ -1,9 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo:700|Dosis:300,400&display=swap");
 .nav {
-  background: #8e943d;
+  background: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding: 20px 40px 20px 20px;
+}
+
+.nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav h3 {
+  color: #7e2aeb;
+  font-size: 28px;
+  float: left;
+  font-family: "Arimo", sans-serif;
+}
+
+.nav h3 span {
+  color: #fff;
 }
 
 .nav ul {
   list-style: none;
+  font-family: "Dosis", sans-serif;
+  float: left;
+  margin-left: 19%;
+  font-size: 20px;
+}
+
+.nav li {
   display: inline-block;
+  margin: 5px 15px;
+}
+
+.nav li:hover {
+  color: #fff;
+}
+
+.nav a {
+  margin: 5px 15px;
+}
+
+.nav a i {
+  padding-top: 7px;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
