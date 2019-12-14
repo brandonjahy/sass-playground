@@ -136,3 +136,16 @@ header {
         }
     }
 }
+
+footer {
+    height: 10vh;
+    width: 100%;
+    background: #000;
+    .text {
+        text-align: center;
+        color: white;
+        font-family: $smallfont;
+        font-size: 1.6rem;
+        padding-top: 2%;
+    }
+}

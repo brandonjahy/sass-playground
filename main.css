@@ -145,4 +145,18 @@ header .scroll {
   letter-spacing: 1.5px;
   font-family: "Dosis", sans-serif;
 }
+
+footer {
+  height: 10vh;
+  width: 100%;
+  background: #000;
+}
+
+footer .text {
+  text-align: center;
+  color: white;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.6rem;
+  padding-top: 2%;
+}
 /*# sourceMappingURL=main.css.map */
