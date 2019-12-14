@@ -7,6 +7,10 @@ $purple: #7e2aeb;
 $smallcolor: rgb(253, 253, 253);
 $buttonShadow:  11px 10px 23px -5px rgba(0,0,0,0.75);
 
+* {
+    box-sizing: border-box;
+}
+
 .nav {
     background: rgba(0,0,0, .3);
     display: inline-block;
@@ -68,7 +72,7 @@ header {
             font-size: 20px;
             color: #000;
             font-family: $smallfont;
-            letter-spacing: 1.5;
+            letter-spacing: 1.5px;
         }
         h1 {
             font-size: 4rem;
@@ -96,3 +100,39 @@ header {
     }
 }
 
+.biopic {
+    height: 100vh;
+    width: 100%;
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)),
+        url('https://images.pexels.com/photos/41951/solar-system-emergence-spitzer-telescope-telescope-41951.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .astro {
+        position: absolute;
+        top: 10%;
+    }
+    .text-block {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        height: 65%;
+        width: 35%;
+        padding: 10px;
+        background: rgba(0,0,0,.2);
+        border-radius: 10px;
+        h1 {
+            font-size: 4rem;
+            color: white;
+            font-family: $bigfont;
+        }
+        p {
+            padding-top: 20px;
+            color: rgb(177, 177, 177);
+            font-size: 1.3rem;
+            letter-spacing: 1.5px;
+            font-family: $smallfont;
+        }
+    }
+}
